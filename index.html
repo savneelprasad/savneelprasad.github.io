@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — Savneel Prasad</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Savneel Prasad</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h2>Welcome</h2>
+      <p>Hi — I'm Savneel. I build things for the web.</p>
+      <p><a class="cta" href="#projects">See my projects</a></p>
+    </section>
+
+    <section id="about" class="card">
+      <h3>About Me</h3>
+      <p>Short bio: your role, focus areas, and one-sentence mission. Example: Full‑stack developer focusing on accessible, performant web apps.</p>
+    </section>
+
+    <section id="blog" class="card">
+      <h3>Blog</h3>
+      <ul class="list">
+        <li><strong>Latest post:</strong> Title — short excerpt or date</li>
+        <li><a href="#">Older post title</a></li>
+      </ul>
+      <p><a href="#">View all posts</a></p>
+    </section>
+
+    <section id="projects" class="card">
+      <h3>Projects</h3>
+      <ul class="grid">
+        <li>
+          <h4>Project One</h4>
+          <p>One-line description + link.</p>
+        </li>
+        <li>
+          <h4>Project Two</h4>
+          <p>One-line description + link.</p>
+        </li>
+      </ul>
+      <p><a href="#contact">Want to collaborate?</a></p>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Or find me on: <a href="#" aria-label="GitHub">GitHub</a> · <a href="#" aria-label="LinkedIn">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Savneel Prasad</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
